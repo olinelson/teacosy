@@ -1,0 +1,15 @@
+body{
+  background-color: black;
+}
+
+.header{
+  display: flex;
+  margin: 0 10px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+}
+
+.header img{
+  height: 50px;
+}
