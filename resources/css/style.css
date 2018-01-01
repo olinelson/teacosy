@@ -1,15 +1,64 @@
 body{
   background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.mainpage{
+  padding-top: 50px;
 }
 
 .header{
   display: flex;
-  margin: 0 10px;
+  margin: 0;
+  background-color: black;
+  padding: 0;
   height: 69px;
   border-bottom: 1px solid seashell;
+  border-width: 100%;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .header img{
   height: 50px;
+  margin: 0;
+  padding: 0 10px;
+}
+#menubar{
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.9;
+  width: 25%;
+  font-size: 22px;
+  font-family: Helvetica;
+  padding-right: 10px;
+  padding-top: 15px;
+  align-content: center;
+}
+#menubar a visited , a{
+  color: seashell;
+
+}
+
+.mainpage{
+  display:
+
+}
+
+.mission{
+  background-color: black;
+  display: flex;
+  z-index: 1000;
+  align-content: center;
+  justify-content: center;
+}
+
+.mission img{
+  height: 700px;
+  width: auto;
+
 }
