@@ -48,29 +48,38 @@ body{
   display:
 
 }
-
-.mission{
-  background-color: black;
+.container1{
   display: flex;
-  z-index: -100;
-  align-content: center;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  padding-top: 20px;
-  margin-top: 0;
-  position: ;
-}
-
-.mission img{
+  width: 100%;
   height: 700px;
-  width: auto;
+  padding-left:;
+  background-image: url(../images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  background-position: center;
 
 }
 
 .ourmission{
-  color: seashell;
-  opacity: 0.9;
-  font-family: Helvetica;
+  background-color: black;
   display: flex;
-  z-index: 500;
+  align-items: center;
+  flex-direction: column;
+  width: 1200px;
+  font-family: Helvetica;
+  color: seashell;
+
+}
+.ourmission h2 , h4{
+  opacity: 0.9;
+
+}
+
+
+
 
 }
