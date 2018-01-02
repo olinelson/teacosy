@@ -52,13 +52,25 @@ body{
 .mission{
   background-color: black;
   display: flex;
-  z-index: 1000;
+  z-index: -100;
   align-content: center;
   justify-content: center;
+  padding-top: 20px;
+  margin-top: 0;
+  position: ;
 }
 
 .mission img{
   height: 700px;
   width: auto;
+
+}
+
+.ourmission{
+  color: seashell;
+  opacity: 0.9;
+  font-family: Helvetica;
+  display: flex;
+  z-index: 500;
 
 }
