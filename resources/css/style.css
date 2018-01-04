@@ -39,7 +39,7 @@ body{
   display: flex;
   justify-content: space-between;
   opacity: 0.9;
-  width: 25%;
+  width: 400px;
 
   padding-right: 10px;
   padding-top: 15px;
@@ -51,7 +51,8 @@ body{
 }
 
 #menubar a{
-
+margin: 0 10px;
+flex-wrap: no-wrap;
 }
 
 .mainpage{
@@ -90,6 +91,7 @@ body{
   opacity: 0.9;
   padding: 10px;
   margin: 0;
+  flex-shrink: 1;
 
 }
 
@@ -121,7 +123,7 @@ margin: 0;
   display: flex;
   align-content: center;
   justify-content: center;
-  margin: 0 20px;
+  margin: 40px 20px;
 }
 
 
@@ -149,8 +151,9 @@ margin: 0;
   width: 100%;
   display: flex;
   align-content: center;
-  justify-content: center;
-  margin: 0 20px;
+  margin: 40px 20px;
+
+
 }
 
 .locations{
@@ -158,10 +161,11 @@ margin: 0;
   width: 100%;
   background-image: url(../images/img-locations-background.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 
 
@@ -174,16 +178,50 @@ margin: 0;
   height: 300px;
   background-color: black;
   text-align: center;
-  margin: 0 10px;
+  margin: 0 20px ;
+
 
 
 
 }
 
-.locations h2{
-  width: 80%;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0 0 0;
+#eastbayside{
+  margin-bottom: ;
+  margin-top: ;
+}
 
+.eastbaysidecont{
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px ;
+  justify-content: flex-start;
+  height: 100%;
+
+}
+
+.eastbaysidecont h2{
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 14px;
+}
+
+.container4{
+  display: flex;
+  margin: 0 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottomlogo{
+  width: 100%;
+  text-align: center;
+  height: 200px;
+
+}
+
+.copyright{
+  width: 100%;
+  text-align: left;
+  margin: 0 20px;
 }
