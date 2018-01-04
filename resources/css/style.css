@@ -6,6 +6,7 @@ body{
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
+  opacity: 0.9;
 }
 
 .mainpage{
@@ -23,6 +24,9 @@ body{
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+
   z-index: 100;
 }
 
@@ -65,7 +69,7 @@ body{
   padding-left:;
   background-image: url(../images/img-mission-background.jpg);
   background-repeat: no-repeat;
-  margin: 0;
+  margin: 0 20px;
   padding: 0;
   background-position: center;
 
@@ -117,6 +121,7 @@ margin: 0;
   display: flex;
   align-content: center;
   justify-content: center;
+  margin: 0 20px;
 }
 
 
@@ -145,26 +150,40 @@ margin: 0;
   display: flex;
   align-content: center;
   justify-content: center;
+  margin: 0 20px;
 }
 
 .locations{
   height: 500px;
-  width: auto;
+  width: 100%;
   background-image: url(../images/img-locations-background.jpg);
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+
+
+
 
 }
 
 #downtown , #eastbayside , #oakdale{
-  display: flex;
   width: 300px;
   height: 300px;
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
-  padding: 0;
-  margin: 0;
   background-color: black;
+  text-align: center;
+  margin: 0 10px;
+
+
+
+}
+
+.locations h2{
+  width: 80%;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
 
 }
